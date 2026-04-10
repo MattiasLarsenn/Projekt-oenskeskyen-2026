@@ -2,9 +2,8 @@ package org.example.oenskeskyen2026;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration;
 
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+@SpringBootApplication
 public class OenskeSkyen2026Application
 {
 	public static void main(String[] args)
