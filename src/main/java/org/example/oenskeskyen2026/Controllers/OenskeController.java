@@ -13,4 +13,10 @@ public class OenskeController
     {
         return "Det her er forsiden";
     }
+
+    @GetMapping("/Hey")
+    public String hey()
+    {
+        return "Hey";
+    }
 }
